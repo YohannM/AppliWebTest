@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Mon curriculum vitae";
+}
+<h2 class="text-center">@ViewData["Title"]</h2>
+<!--<h3>@ViewData["Message"]</h3>-->
+
+<p class="text-center">
+    Téléchargez le fichier PDF ici :
+    <a href="~/doc/CV_Yohann_Marmonier.pdf" download="cv" >Télécharger le PDF</a>
+</p>
+
+<p > <embed src=~/doc/CV_Yohann_Marmonier.pdf width=800 height=1160 type='application/pdf' class="center-block"/> </p>
